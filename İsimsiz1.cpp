@@ -21,7 +21,16 @@ int main() {
         case '+':
             result = num1 + num2;
             break;
+<<<<<<< Updated upstream
 
+=======
+		case '-':
+            result = num1 - num2;
+            break;
+    	case '*':
+            result = num1 * num2;
+            break;
+>>>>>>> Stashed changes
         case '/':
             if (num2 != 0)
                 result = num1 / num2;
